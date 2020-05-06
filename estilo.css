@@ -1,0 +1,143 @@
+
+body{
+    background-color: rgb(86, 162, 167);
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+#cabecalho{
+    font-size: 30px;
+    font-weight: lighter;
+    color:white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+a.menu{
+    color: white;
+    text-decoration: unset;
+    font-size: 17px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 25px;
+    margin-right: 70px;
+
+}
+a.menu:hover{
+
+    color:rgb(121, 86, 167);
+  }
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top:0;
+    background-color: rgb(95, 181, 187);
+}
+.brand{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.greet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+#navbar input[type=text] {
+
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color:rgba(255, 255, 255, 0.685);
+}
+#navbar .button1 {
+    color: white;
+    font-size: 17px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: unset;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 25px;
+  }
+  
+  #navbar .button1:hover {
+    color:rgb(121, 86, 167);
+  }
+
+#allCards{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px;
+}
+
+    .card{
+    background-color: rgb(95, 181, 187);
+    padding-bottom: 1%;
+    border-radius: 25px;
+    margin: 50px;
+   
+}
+    .cardImg{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    object-fit: cover;
+    /* object fit cropa a imagem para caber no tamanho definido acima */
+}
+
+    .cardTxt{
+    background-color: rgba(255, 255, 255, 0.199);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 150px;
+}
+
+    .type{
+    color: rgb(121, 86, 167);
+}
+    .price{
+    color: white
+}
+a.button{
+    background-color: white;
+    color:  rgb(121, 86, 167);
+    width: 14%;
+    border-radius: 100%;
+    font-size: 36px;
+    display: inline-block;
+    text-decoration: unset;
+}
+
+a.button:hover{
+    background-color: rgb(121, 86, 167);
+    color: white;
+    
+  }
+
+#rodape{
+    background-color: rgba(255, 255, 255, 0.199);
+    color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
